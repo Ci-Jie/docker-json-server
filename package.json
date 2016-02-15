@@ -1,0 +1,12 @@
+{
+  "name": "docker-json-server",
+  "version": "1.0.0",
+  "description": "Json-server on Docker",
+  "author": "James Lee <cjlee8110@gmail.com>",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.8.8"
+  }
+}
